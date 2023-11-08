@@ -1,0 +1,8 @@
+tipo
+
+var batchsize = 10000;
+var totalPaginas = totalRecords/batchsize;
+
+for(i= 0; i<=totalpaginas;i++){
+ var fundstobeinsert = lista.take(batchsize).skip(i*batchsize)
+}
